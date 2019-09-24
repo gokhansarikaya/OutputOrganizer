@@ -9,13 +9,14 @@ public class TestMain {
 
 		List<String> words = new ArrayList<String>();
 		
+		
 		words.add("1|AAAAAAA|1|33.5");
 		words.add("15|BBB|22222|45645");
 		words.add("452|||");
 		
 		//Organizer a= new Organizer(words);
 		
-		String b="15|BBB|22222|45645\r\n" + 
+		String str="15|BBB|22222|45645\r\n" + 
 				"asdasdasd|asdasd\r\n" + 
 				"asdasdsd|sada|asdasda";
 		
@@ -27,7 +28,7 @@ public class TestMain {
 		c.setPRINTING_DELIMITER("||");
 		c.setPREPARE_DELIMITER("|");
 		
-		System.out.println(c.toString(b));
+		System.out.println(c.toString(str));
 		
 				
 	}
